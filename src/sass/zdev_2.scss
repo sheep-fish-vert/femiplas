@@ -69,7 +69,7 @@
         }
         .contact-form-row-submit{ width: 100%; 
             button{ width: 100%; border: none; outline: none; height: 63px; border-bottom: 2px solid #e48a1e; background-color: #ff8900; padding: 0; line-height: 60px; border-radius: 1px;transition: all 0.3s;
-                span{ font-size: 20px; font-family: "Roboto"; color: rgb(255, 255, 255); font-weight: bold;   text-transform: uppercase; text-align: center; letter-spacing: 1px; text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.08); position: relative;  
+                span{ font-size: 20px; font-family: "Roboto"; color: rgb(255, 255, 255); font-weight: 600;   text-transform: uppercase; text-align: center; letter-spacing: 1; text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.08); position: relative;  
                     &:before{ content: ''; position: absolute; right: -20px; background-image: url(../images/button-up.png); width: 16px; height: 16px; top: calc(50% - 8px);}
                 }
                 &:hover{  background-color: #e67e06; }
