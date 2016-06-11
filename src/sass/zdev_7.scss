@@ -2,8 +2,9 @@
 .global-wrapper{
     position: relative;
     max-width: 1920px;
-    min-width: 960px;
+    min-width: 1020px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .wrapper{
     position: relative;
