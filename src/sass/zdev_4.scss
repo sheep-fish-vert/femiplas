@@ -180,3 +180,24 @@
         }
     }
 }
+
+// dv7
+.dv7{background-color: #185d95;
+    .top-part{padding-top: 77px;
+        .title{font-family: "Intro";font-size: 38px;position: relative;line-height: 1.2;text-transform: uppercase;color: #fff;text-align: center;letter-spacing: -0.2px;margin-bottom: 48px;
+            h2{margin: 0;font-size: 38px;font-family: "Intro";font-weight: bold;}
+        }
+        .row-items{display: flex;min-height: 204px;padding-top: 48px;position: relative;
+            &:after{position: absolute;top: 0;border:1px solid #6d99bc;left: -60px;width: calc(100% + 120px);content: '';height: 100%;border-radius: 10px;}
+            .item{width: 33.33%;color: white;text-align: center;position: relative;z-index: 2;
+                .top-img{height: 38px;width: 38px;border:2px solid #fff;border-radius: 50%;overflow: hidden;position: relative;margin: 0 auto 12px;
+                    &:after{background-color: #fff;height: 2px;width: 10px;position: absolute;transform: rotate(36deg);left: 6px;top: 20px;content: '';}
+                    &:before{background-color: #fff;height: 2px;width: 18px;position: absolute;transform: rotate(-48deg);left: 12px;top: 16px;content: '';}
+                }
+                .descript{font-family: "Roboto";font-weight: 100;font-size: 16px;line-height: 1.2;padding-bottom: 10px;
+                    b{font-weight: 900;font-size: 18px;display: block;}
+                }
+            }
+        }
+    }
+}
