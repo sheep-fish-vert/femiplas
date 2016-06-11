@@ -1,3 +1,10 @@
+/* title  */
+    .title-text{ 
+        h2{margin: 0;font-size: 38px; font-family: "Intro"; color: rgb(24, 93, 149); text-transform: uppercase; line-height: 1.2; text-align: center;}
+    }
+
+/* title  */
+
 /* dv form */
 
     .dv_form{ background-color: #185d95;
@@ -148,7 +155,9 @@
             .slider-content{ padding-bottom: 45px;
                 .item{width: 100%; border-radius: 9px; border: 1px solid #ececec; background-color: #fcfcfc; padding: 25px 30px 35px; display: flex; align-items: center; justify-content: flex-start;
                     .right-side{
-                        .con{width: 137px; height: 137px; border-radius: 50%; }
+                        .con{width: 137px; height: 137px; border-radius: 50%; overflow: hidden;
+                            img{min-width: 100%; min-height: 100%;}
+                        }
                     }
                     .left-side{margin-left: 33px;
                         p{margin: 0; font-size: 16px; font-family: "Roboto";   color: rgb(33, 33, 33); line-height: 1.2;}
@@ -182,3 +191,47 @@
 
 /* block 10 */
 
+/* bloc 9 */ 
+
+    .dv9{ background-color: #f5fafe; padding-bottom: 52px;
+        .title-text{ padding-top: 85px; padding-bottom: 5px;}
+        .contein{
+            .item{display: flex; align-items: center; justify-content: space-between; padding-bottom: 55px; padding-top: 75px;
+ border-bottom: 1px solid #e3ecf4;
+                &:last-child{border: none;}
+
+                .faceman{ 
+                    .con{width: 250px; height: 250px; border-radius: 50%; overflow: hidden; 
+                        img{min-height: 100%; min-width: 100%;}
+                    }
+                }
+                .texter{ margin-left: 65px; 
+                    .expert-titl{ font-size: 20px; font-family: "Roboto", sans-serif; color: rgb(24, 93, 149); text-transform: uppercase; line-height: 1.2; font-weight: 900;}
+                    .proff{font-size: 16px; font-family: "Roboto"; color: rgb(33, 33, 33); line-height: 1.2;}
+                    .simple-words{ font-size: 18px; font-family: "Roboto"; color: rgb(33, 33, 33);line-height: 1.2;padding-top: 15px;
+                        p{margin: 0; }
+                    }
+                }
+            }  
+        }
+    }
+
+/* block 9 */
+
+/* block 8 */
+
+    .dv8{ padding-top: 97px; padding-bottom: 58px;
+        .contein-like{ display: flex; align-items: stretch; justify-content: space-between;  height: 215px; 
+            .item{width: 31%; text-align: center; padding-top: 55px; border-radius: 7px; background-color: #f5fafe; 
+                .con{ padding-bottom: 24px;} 
+                .opis{ font-size: 20px; font-family: "Roboto"; color: rgb(33, 33, 33);  line-height: 1.2; font-weight: 300; padding: 0 20px;}          
+            }
+        }
+        .aftertext{ max-width: 780px; margin: 0 auto; padding-top: 5px;
+            h3{font-size: 41px; font-family: "Roboto", sans-serif; color: rgb(33, 33, 33);   line-height: 1.2; text-align: center; font-weight: 100;
+                span{font-weight: 900; color: #185d95;}
+            }
+        }
+    }
+
+/* block 8 */
