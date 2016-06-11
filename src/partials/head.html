@@ -4,12 +4,8 @@
     <meta charset="UTF-8">
     <title>femiplast</title>
 
-    <meta id="viewport" name="viewport" content="width=1280,user-scalable=yes">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="MobileOptimized" content="1280"/>
-    <meta name="HandheldFriendly" content="false"/>
-
-    <meta name="format-detection" content="telephone=no">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,900,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
 
     <!-- build:css -->
 
@@ -42,5 +38,13 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script>
+        if(screen.width>640){
+            document.write('<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />')
+        }
+        else{
+            document.write('<meta name="viewport" content="width=640, user-scalable=false />')
+        }
+    </script>
 </head>
 <body>
