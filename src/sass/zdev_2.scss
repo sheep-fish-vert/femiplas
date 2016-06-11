@@ -72,6 +72,14 @@
 
 /* form for all */
 
+/* button for all */
+
+    a.button{display: flex; align-items: center; justify-content: center; background-color: #ff9400; border-bottom: 2px solid #e48a1e; height: 38px; border-radius: 1px; text-decoration: none; transition: all 0.3s; font-size: 12px; font-family: "Roboto"; color: rgb(255, 255, 255);  text-transform: uppercase; text-align: center; text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.08);
+        &:hover{ background-color: #e67e06; }
+    }
+
+/* button for all /* 
+
 /* popups */
 
     #call-popup{ width: 310px; 
@@ -107,3 +115,24 @@
     }
 
 /* popups */
+
+/* footer */ 
+
+    .footer{ background-color: #0f4979;
+        .mbox{height: 135px; width: 100%; display: flex; align-items: center; justify-content: space-between;
+            .cont{width: 50%;}
+            .logo{ display: inline-block; text-decoration: none;
+                .till{ font-size: 44px; font-family: "Intro"; color: rgb(24, 93, 149); line-height: 1;}
+                .fill{font-size: 13px; font-family: "Roboto";color: rgb(24, 93, 149);     margin-top: -6px;}
+            }
+            .end-block{ width: 50%; display: flex; align-items: center; justify-content: space-between;
+                .text{ 
+                    b{ display: block; font-size: 22px; font-family: "Roboto"; color: rgb(255, 255, 255); text-transform: uppercase; font-weight: 100;}
+                    span{display: block; font-size: 18px; font-family: "Roboto"; color: rgb(255, 255, 255); font-weight: 100;}
+                }
+                .butt{width: 180px;  }
+            }
+        }
+    }
+
+/* footer */ 
