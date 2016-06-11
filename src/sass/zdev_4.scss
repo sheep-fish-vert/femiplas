@@ -111,8 +111,8 @@
 }
 
 //dv5  один доктор
-.dv5{background:#185d95 url('../images/dv5-bg.png') 27% 101% no-repeat;
-    .container{min-height: 651px;display: flex;justify-content: flex-end;align-items: center;}
+.dv5{background-color: #185d95;
+    .container{min-height: 651px;display: flex;justify-content: flex-end;align-items: center;background:#185d95 url('../images/dv5-bg.png') 1% 101% no-repeat;}
     .item-right{width: 60%;display: flex;flex-wrap: wrap;flex-direction: column;color: white;background-color: #185d95;
         .sub-title{font-family: "Intro";font-size: 38px;position: relative;line-height: 1.2;margin-bottom: 64px;text-transform: uppercase;padding-top: 5px;
             h2{margin: 0;font-size: 38px;font-family: "Roboto";font-weight: bold;}
