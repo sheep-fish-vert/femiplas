@@ -20,7 +20,7 @@
     clear: both;
     position: relative;
 }
-header{
+header .container{
     width: 960px;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -37,7 +37,7 @@ header{
 }
 .header_menu ul li{
     list-style: none;
-    margin: 0 10px;
+    margin: 0 8px;
 }
 .header_menu ul li:first-child{
     margin-left: 0px;
@@ -46,21 +46,53 @@ header{
     margin-right: 0px;
 }
 .header_menu ul li a{
-    text-decoration: none;
     color: #010101;
     font-size: 13px;
     font-family: "Roboto";
     color: rgb(1, 1, 1);
     font-weight: 400;
     text-transform: uppercase;
-    line-height: 36px;
-    padding: 0 10px;
+    height: 36px;
     display: block;
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_menu ul li a>span{
+    display: block;
+    border-bottom: dotted 1px #010101;
+    box-sizing: border-box;
+    line-height: 1;
 }
 .header_menu ul li a:hover{
   background-color: #185d95;
   border-radius: 20px;
   color: #ffffff;
+}
+.header_menu ul li a:hover>span{
+    border: none;
+}
+header .form_button_wrap a{
+    border-radius: 1px;
+    background-color: #ff8f00;
+    display: block;
+    line-height: 36px;
+    text-align: center;
+    width: 178px;
+    height: 36px;
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+    border-bottom: solid 2px #e48a1e;
+}
+header .form_button_wrap a:hover{
+    background-color: #e67e06;
 }
