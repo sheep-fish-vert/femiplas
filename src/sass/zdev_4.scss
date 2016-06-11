@@ -1,0 +1,61 @@
+/*dv2*/
+.dv2{background:transparent url('../images/dv2-1-bg.png') 77% top no-repeat;overflow: hidden;
+    //top block
+    .dv2-1{min-height: 322px;display: flex;flex-direction: column;justify-content: flex-start;
+        // title
+        .sub-title{font-family: "Intro";font-size: 21px;position: relative;color: #212121;line-height: 1.3;    padding-top: 66px;margin-bottom: 28px;
+            h2{margin: 0;font-size: 31px;}
+            &:after{position: absolute;top: calc(100% + 7px);background-color: #212121;height: 4px;width: 123px;left: 0;content: '';}
+        }
+        .sub-title-red{font-size: 52px;color: #ff5722;text-transform: uppercase;letter-spacing: 3.2px;margin-bottom: 92px;}
+        // cubs
+        .items-cub{display: flex;flex-wrap: wrap;position: relative;
+            &:after{position: absolute;right: calc(100% + 16px);width: 5000px;height: 305px;content: '';background-color: #f5fafe;top: 0;}
+            &:before{position: absolute;left: calc(100% + 16px);width: 5000px;height: 305px;content: '';background-color: #f5fafe;top: 0;}
+            .item{width: 33.33%;height: 305px;margin-bottom: 17px;display: flex;flex-direction: column;align-items: center;justify-content: flex-start;text-align: center;padding-top: 32px;
+                &:nth-child(even){background-color: #f5fafe;}
+                i{font-family: "Roboto Condensed";font-weight: 300;font-size: 43px;font-style:normal;line-height: 1.3;padding-top: 25px;}
+                .item-img{height: 170px;width: 170px;position: relative;margin-bottom: 11px;
+                    img{border-radius: 50%;overflow: hidden;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+                }
+                .item-title{font-family: "Roboto Condensed";font-size: 22px;margin-bottom: 9px;
+                    b{font-weight: 400;}
+                }
+                .item-subtitle{font-family: "Roboto Condensed";font-weight: 300;font-size: 18px;padding: 0 5px;max-width: 250px;}
+            }
+        }
+    }
+}
+//как снять боль
+.dv2-2{background:transparent url('../images/dv2-2-bg.jpg') 0 bottom no-repeat;min-height: 491px;background-size: cover;padding-top: 98px;
+    // title
+    .sub-title{font-family: "Intro";font-size: 46px;position: relative;color: #185d95;line-height: 1.3;
+            h2{margin: 0;font-size: 46px;}
+            &:after{position: absolute;top: 100%;background-color: #185d95;height: 4px;width: 123px;left: 0;content: '';}
+        }
+    // table
+    .dv2-2-table{padding-top: 25px;padding-bottom: 50px;
+        .row{
+            &:first-child{
+                .cell{height: 72px !important;}
+            }
+            &:nth-child(even){background-color: rgba(255,255,255, .53);}
+            .container{display: flex;
+                .cell{width: 25%;text-align: center;height: 45px;display: flex;align-items: center;justify-content: center;
+                    &:first-child{text-align: right;padding-right: 10%;justify-content: flex-end;}
+                    span:not([class]){font-family: "Roboto";font-size: 25px;font-weight: 100;}
+                        .tabl-logo{font-weight: bold;font-family: "Roboto";color: #185d95;font-size: 25px;
+                            i{font-style: normal;color: #ff8f00;}
+                        }
+                    .plus{width: 25px;height: 25px;border:2px solid #558b2f;border-radius: 50%;position: relative;
+                        &:after,&:before{background-color: #558b2f;content: '';position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 11px;height: 2px;content: '';}
+                        &:before{transform: translate(-50%, -50%) rotate(90deg);}
+                    }
+                    .minus{width: 25px;height: 25px;border:2px solid #f4511e;border-radius: 50%;position: relative;
+                        &:after{background-color: #f4511e;content: '';position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 11px;height: 2px;content: '';}
+                    }
+                }
+            }
+        }
+    }
+}
