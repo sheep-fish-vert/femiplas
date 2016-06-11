@@ -31,6 +31,16 @@ $(document).ready(function(){
         /* reload */
 
     }, 1000);
+
+
+    $('.slider-content').slick({
+        dots: true,
+        infinite: true,
+        arrows: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+    });
 });
 
 $(window).load(function(){
