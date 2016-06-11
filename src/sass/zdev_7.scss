@@ -1,3 +1,4 @@
+/*====base wrapper and container===*/
 .global-wrapper{
     position: relative;
     max-width: 1920px;
@@ -11,8 +12,9 @@
     margin: 0 auto;
 }
 .global-wrapper .container{
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
+    max-width: 960px;
 }
 .acl:after{
     content: '';
@@ -20,6 +22,9 @@
     clear: both;
     position: relative;
 }
+/*====end base wrapper and container===*/
+//
+/*====header=====*/
 header .container{
     width: 960px;
     background-color: rgb(255, 255, 255);
@@ -32,7 +37,7 @@ header .container{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 0;
+    margin: 0 0 0 -10px;
     padding: 0;
 }
 .header_menu ul li{
@@ -68,6 +73,7 @@ header .container{
     border-bottom: dotted 1px #010101;
     box-sizing: border-box;
     line-height: 1;
+    letter-spacing: -0.1px;
 }
 .header_menu ul li a:hover{
   background-color: #185d95;
@@ -76,6 +82,9 @@ header .container{
 }
 .header_menu ul li a:hover>span{
     border: none;
+}
+header .form_button_wrap{
+    margin-top: -15px;
 }
 header .form_button_wrap a{
     border-radius: 1px;
@@ -96,3 +105,157 @@ header .form_button_wrap a{
 header .form_button_wrap a:hover{
     background-color: #e67e06;
 }
+/*====end header=====*/
+/*====dv1=====*/
+.dv1{
+    background-color: rgb(251, 251, 251);
+    background-image: url(../images/dv1_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 663px;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .left_part{
+            padding-top: 48px;
+            .h1{
+                color: #185d95;
+                font-size: 65px;
+                font-family: "Intro";
+                color: rgb(24, 93, 149);
+                font-weight: normal;
+                line-height: 0.923;
+                margin-left: -5px;
+                h1{
+                    font-size: 65px;
+                    font-weight: normal;
+                    margin: 0px;
+                    padding: 0px;
+                }
+                span{
+                    color: #ff8f00;
+                }
+            }
+            .h2{
+                font-size: 20px;
+                font-family: "Roboto Condensed";
+                color: rgb(33, 33, 33);
+                line-height: 1;
+                text-align: left;
+                font-weight: normal;
+                margin-top: -9px;
+                letter-spacing: 0.54px;
+                h2{
+                    font-size: 20px;
+                    font-family: "Roboto Condensed";
+                    color: rgb(33, 33, 33);
+                    line-height: 1;
+                    text-align: left;
+                    font-weight: normal;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+            .description_block{
+                padding: 50px 0 0 0;
+                width: 325px;
+                .title_description{
+                    font-size: 30px;
+                    font-family: "Roboto Condensed";
+                    color: rgb(33, 33, 33);
+                    text-transform: uppercase;
+                    line-height: 1;
+                    text-align: right;
+                    letter-spacing: -0.15px;
+                }
+                .elements_description{
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-start;
+                    padding: 22px 0 0 0;
+                    ul{
+                        padding: 0px;
+                        margin: 0;
+                        li{
+                            list-style: none;
+                            font-size: 25px;
+                            font-family: "Roboto";
+                            color: rgb(33, 33, 33);
+                            line-height: 1;
+                            text-align: left;
+                            font-weight: 100;
+                            letter-spacing: 0.2px;
+                            margin: 0 0 15px 0;
+                            position: relative;
+                            &:before{
+                                content: '';
+                                display: block;
+                                position: absolute;
+                                background-image: url(../images/ok_dv1.png);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                width: 20px;
+                                height: 20px;
+                                left: -32px;
+                                top: 3px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right_part{
+            padding: 78px 0 0 0;
+            .title_simptoms{
+                font-size: 44px;
+                font-family: "Roboto";
+                color: rgb(24, 93, 149);
+                line-height: 0.951;
+                font-weight: 300;
+                color: #424242;
+                line-height: 0.9;
+                span{
+                    color: #185d95;
+                    letter-spacing: -0.4px;
+                    font-size: 41px;
+                }
+            }
+            .elements_simptoms{
+                padding: 15px 0 0 0;
+                ul{
+                    padding: 0 0 0 30px;
+                    margin: 0;
+                    li{
+                        position: relative;
+                        list-style: none;
+                        font-size: 20px;
+                        font-family: "Roboto Condensed";
+                        color: rgb(0, 0, 0);
+                        line-height: 1;
+                        font-weight: 300;
+                        letter-spacing: -0.3px;
+                        margin-bottom: 14px;
+                        text-align: left;
+                        &:before{
+                            content: '';
+                            position: absolute;
+                            display: block;
+                            left: -26px;
+                            top: 0px;
+                            background-position: center center;
+                            background-repeat: no-repeat;
+                            background-image: url(../images/not_dv1.png);
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*===end dv1==*/
