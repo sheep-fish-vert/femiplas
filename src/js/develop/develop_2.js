@@ -6,8 +6,6 @@ var sec  = 10 ;
 
 $(document).ready(function(){
 
-console.log('asdfasdf');
-
     setInterval(function(){
 
         sec--;
