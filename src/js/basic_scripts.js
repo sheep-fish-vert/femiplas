@@ -184,7 +184,9 @@ function changeViewport(){
 $(document).ready(function() {
     //oneHeightItems();
     $('.footer_placeholder').height($('.footer').outerHeight());
-
+    AOS.init({
+        offset: 200,
+    });
     //goTo();
     //animationBlock($('.setion-animate'));
 });
