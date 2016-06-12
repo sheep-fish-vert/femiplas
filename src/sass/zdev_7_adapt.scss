@@ -50,6 +50,7 @@
             margin: 0 2px;
             a span{
                 letter-spacing: 0.2px;
+                font-size: 12px;
             }
         }
     }
@@ -83,10 +84,16 @@
                 .description_block{
                     width: 300px;
                     padding-top: 40px;
+                    .title_description{
+                        font-size: 26px;
+                    }
                 }
             }
             .right_part{
                 width: 268px;
+                .elements_simptoms ul li{
+                    font-size: 18px;
+                }
             }
         }
     }
