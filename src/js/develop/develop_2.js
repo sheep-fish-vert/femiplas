@@ -64,7 +64,7 @@ $(document).ready(function(){
 $(window).load(function(){
 
     if (getCookie('date') == ''){
-        document.cookie = "date=" + (Date.now() + 345600000) + ';';
+        document.cookie = "date=" + (Date.now() + 345600000 - 1) + ';';
     };
 
 
