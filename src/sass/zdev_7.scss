@@ -6,13 +6,13 @@
     margin: 0 auto;
     overflow: hidden;
 }
-.wrapper{
+.wrapper,.wrapepr{
     position: relative;
     max-width: 1920px;
     min-width: 640px;
     margin: 0 auto;
 }
-.wrapper .container{
+.wrapper .container,.wrapepr .container{
     width: 100%;
     margin: 0 auto;
     max-width: 960px;
