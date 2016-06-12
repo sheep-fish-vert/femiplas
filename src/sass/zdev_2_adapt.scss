@@ -11,24 +11,185 @@
 
 }
 @media screen and (max-width: 1024px){
-    .footer .mbox {padding: 0 20px; height: 144px;
-        .cont { width: 41%;}
-        .end-block { width: 64%;}
-    }
 
-    .dv_form{
-        .mbox {padding-left: 20px; padding-right: 20px;
-            .form {max-width: 244px;}
-            .con-img {width: 309px; margin-left: -127px;}
+    /* footer */ 
+        .footer .mbox {padding: 0 20px; height: 144px;
+            .cont { width: 41%;}
+            .end-block { width: 64%;}
         }
-    }
+    /* footer */
 
+    /* form ado */
+        .dv_form{
+            .mbox {padding: 45px 20px;
+                .form {max-width: 244px; width: 100%; margin-left: calc((100% - 244px - 309px + 107px - 250px)/2);
+                    form {
+                        .contact-form-title h5 {font-size: 19px;}
+                        .contact-form-row input { height: 41px; font-size: 12px; padding-left: 14px;}
+                        .contact-form-row-submit button {height: 54px; line-height: 53px;
+                            span{font-weight: 400; font-size: 17px;}
+                        }
+                    }
+                }
+                .con-img {width: 309px; margin-left: -107px;
+                    .circle { width: 137px; height: 137px; top: -119px; right: -55px;
+                        .old {font-size: 18px;
+                            span{font-size: 16px;}
+                        }
+                        .new {font-size: 39px;
+                            span{font-size: 14px;}
+                        }
+
+                    }
+                }
+                .tic { max-width: 250px;
+                    .title { font-size: 32px; padding-top: 22px;  line-height: 35px;}
+                    .sub { font-size: 12px; line-height: 15px; padding-top: 17px;}
+                    .timer{     padding-top: 31px;
+                        .time{ width: 47px;margin-left: 20px;
+                            .topest{height: 40px; font-size: 25px; line-height: 40px;}
+                            .descript{font-size: 9px; padding-top: 2px;}
+                        }
+                    }
+                }
+            }
+        }
+    /* form ado */
+
+    /* block 10 */
+
+        .dv10.wrapepr { padding-bottom: 82px;
+            .title-text {padding: 58px 0 59px;}
+            .container {width: 100%;}
+            .slid-convert { padding: 0 46px;
+                .slider-content{padding-bottom: 37px;
+                    .item .ic {    
+                        .right-side { width: 137px;  height: 137px; float: none; margin: 0 auto;}
+                        .left-side { margin: 0;max-width: 550px; margin: 0 auto;  padding-top: 28px;}
+                    }
+                }
+            }
+            .slick-arrow{display: none !important;}
+        }
+
+    /* block 10 */
+    
+
+    /* block 9 */
+
+        .dv9 { padding-bottom: 27px;
+            .contein .item { padding-left: 72px; padding-right: 20px; padding-top: 60px;  padding-bottom: 65px;
+                .faceman { float: none; display: flex; align-items: center; justify-content: flex-start;
+                    .mobile { display: block; margin-left: 28px; padding: 0;}
+                }
+                .texter{margin: 0;
+                    &.desctop{
+                        .expert-titl{display: none;}
+                        .proff{display: none;}
+                        .simple-words {padding-top: 23px;}
+                    }
+                }
+            }
+        }
+
+
+    /* block 9 */
+
+    /* block 8 */
+
+        .dv8 { padding-top: 200px; padding-bottom: 53px;
+            .contein-like{height: 182px; padding: 0 6px;
+                .item{padding-top: 43px; width: 33%;
+                    .con{
+                        img{width: 48px;}
+                    }
+                    .opis { font-size: 17px;}
+                }
+            }
+            .aftertext h3 {font-size: 33px;}
+        }
+
+    /* block 8 */
+
+    /* block 7 */
+
+        .dv7 .bottom-part { padding-top: 71px; padding-bottom: 248px;
+            .items-row{margin: 0; max-width: 660px; margin: 0 auto;
+                .item{ margin-right: 9%;
+                    &:last-child{margin: 0; }
+                }
+            }
+            .last-cheat{right: calc(50% - 345px/2); bottom: -153px;}
+        }
+
+    /* block 7 */
 
 }
 @media screen and (max-width: 992px){
 
 }
 @media screen and (max-width: 767px){
+    /* form ado */
+        .bot-form{display: none;}
+        .dv_form .mbox { padding: 45px 1px;
+            .form { max-width: 201px;  margin-left: calc((100% - 201px - 309px + 153px - 250px)/2);
+                form .contact-form-title { padding-bottom: 21px;
+                    h5 { font-size: 16px;}
+                }
+            }
+            .con-img {margin-left: -153px;}
+        }
+    /* form ado */
+
+    /* footer */
+        .footer .mbox {
+            .cont { width: 34%;}
+            .logo {        
+                .till {font-size: 32px}
+                .fill {font-size: 9.5px;}
+            }
+            .end-block { width: 68%;
+                .text {
+                    span {font-size: 15px;}
+                    b {font-size: 19px;}
+                }
+            }
+        }
+    /* footer */
+
+    /* block 10 */
+        .dv10.wrapepr {  padding-bottom: 24px;
+            .slid-convert { padding: 0 15px;}
+        }
+    /* block 10  */
+
+    /* block 9 */
+
+        .dv9 .contein .item { padding-left: 20px;}
+
+    /* block 9*/
+
+    /* block 8 */
+
+        .dv8 { padding-top: 193px;
+            .contein-like{display: block; height: auto;
+                .item{width: 365px; margin: 0 auto; height: 270px; margin-bottom: 12px; padding-top: 69px;
+                    .con{ padding-bottom: 32px;
+                        img{width: 69px;}
+                    }
+                    .opis {font-size: 25px;}
+                }
+            }
+            .aftertext h3 { margin: 0; padding: 0 35px;}
+        }
+
+    /* block 8 */
+
+    /* block 7 */
+
+        .dv7 .bottom-part .items-row .item { margin-right: 7.8%;}
+
+    /* block 7 */
 
 }
 @media screen and (max-width: 666px){
