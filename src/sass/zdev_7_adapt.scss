@@ -11,13 +11,40 @@
 
 }
 @media screen and (max-width: 1024px){
-
+    
 }
 @media screen and (max-width: 992px){
-
+    header.wrapper .container{
+        width: 728px;
+    }
+    .dv1.wrapper .container{
+        width: 728px;
+        .left_part{
+            padding-top: 40px;
+            .title_block{
+                padding-left: 40px;
+            }
+            .description_block{
+                width: 366px;
+            }
+        }
+        .right_part{
+            padding-top: 33px;
+            width: 310px;
+        }
+    }
+    .dv1.wrapper{
+        background-image: url(../images/dv1_bg_768.jpg);
+    }
+}
+@media screen and (max-width: 800px){
+    .dv1.wrapper{
+        background-position: bottom center;
+        background-position-x: -75px;
+    }
 }
 @media screen and (max-width: 767px){
-
+    
 }
 @media screen and (max-width: 666px){
 
