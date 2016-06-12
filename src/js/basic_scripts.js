@@ -198,6 +198,6 @@ $(window).resize(function() {
 
 $(window).load(function(){
 
-    //changeViewport();
+    changeViewport();
 
 });
