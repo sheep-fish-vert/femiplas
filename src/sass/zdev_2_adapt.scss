@@ -47,6 +47,8 @@
                     .sub { font-size: 12px; line-height: 15px; padding-top: 17px;}
                     .timer{     padding-top: 31px;
                         .time{ width: 47px;margin-left: 20px;
+                            &:before{ right: calc(-23px/2 - 4px/2);     top: calc(40px/2 + 5px);}
+                            &:after{ right: calc(-23px/2 - 4px/2);     top: calc(40px/2 - 5px);}
                             .topest{height: 40px; font-size: 25px; line-height: 40px;}
                             .descript{font-size: 9px; padding-top: 2px;}
                         }
@@ -131,13 +133,14 @@
 @media screen and (max-width: 767px){
     /* form ado */
         .bot-form{display: none;}
-        .dv_form .mbox { padding: 45px 1px;
+        .dv_form .mbox { padding: 45px 15px 0 1px;
             .form { max-width: 201px;  margin-left: calc((100% - 201px - 309px + 153px - 250px)/2);
                 form .contact-form-title { padding-bottom: 21px;
                     h5 { font-size: 16px;}
                 }
             }
             .con-img {margin-left: -153px;}
+            
         }
     /* form ado */
 
