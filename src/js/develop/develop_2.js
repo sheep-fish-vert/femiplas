@@ -63,24 +63,22 @@ $(document).ready(function(){
 
 $(window).load(function(){
 
-    //document.cookie = "date=" + new Date(1468924073685) + ';';
-
     if (getCookie('date') == ''){
-        document.cookie = "date=" + new Date(1468924073685) + ';';
+        document.cookie = "date=" + (Date.now() + 345600000) + ';';
     };
 
 
     var todayTime = new Date();
 
-    var tillTheEnd = new Date( getCookie('date') );
+    var tillTheEnd = new Date( parseInt(getCookie('date') ));
 
     var differense  = tillTheEnd - todayTime ;
 
     if (differense < 0){
-        document.cookie = "date=" + new Date(1468924073685 + 100000000000) + ';';
+        document.cookie = "date=" + (Date.now() + 345600000) + ';';
     }
 
-    var tillTheEnd = new Date( getCookie('date') );
+    var tillTheEnd = new Date( parseInt(getCookie('date')) );
 
     var differense  = tillTheEnd - todayTime ;
 
@@ -94,11 +92,11 @@ $(window).load(function(){
     var s = Math.floor((differense - d*(1000 * 3600 * 24) - h*(1000*3600) - m*(1000*60) )/(1000));
 
 
-    days =  d; //tillTheEnd.getDay() - todayTime.getDay() ;
+    days =  d; 
 
-    hour = h; //tillTheEnd.getHours() - todayTime.getHours() ;
-    min =  m; //tillTheEnd.getMinutes() - todayTime.getMinutes();
-    sec = s; //tillTheEnd.getSeconds() - todayTime.getSeconds() ;
+    hour = h; 
+    min =  m; 
+    sec = s; ;
 
         
     /* reload */ 
