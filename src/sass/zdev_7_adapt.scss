@@ -1,0 +1,102 @@
+@media screen and (max-width: 1920px){
+
+}
+@media screen and (max-width: 1600px){
+
+}
+@media screen and (max-width: 1366px){
+
+}
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 992px){
+    header.wrapper .container{
+        width: 728px;
+    }
+    .dv1.wrapper .container{
+        width: 728px;
+        .left_part{
+            padding-top: 40px;
+            .title_block{
+                padding-left: 40px;
+            }
+            .description_block{
+                width: 366px;
+            }
+        }
+        .right_part{
+            padding-top: 33px;
+            width: 310px;
+        }
+    }
+    .dv1.wrapper{
+        background-image: url(../images/dv1_bg_768.jpg);
+    }
+}
+@media screen and (max-width: 800px){
+    .dv1.wrapper{
+        background-position: bottom center;
+        background-position-x: -75px;
+    }
+}
+@media screen and (max-width: 767px){
+    header.wrapper .container{
+        width: 600px;
+        .header_menu ul li{
+            margin: 0 2px;
+            a span{
+                letter-spacing: 0.2px;
+            }
+        }
+    }
+    .dv1.wrapper{
+        height: 600px;
+        background-position: top center;
+        background-position-x: -138px;
+        .container{
+            width: 600px;
+            height: 600px;
+            .left_part{
+                padding-top: 40px;
+                .title_block{
+                    padding-left: 0px;
+                    .h1{
+                        letter-spacing: 1px;
+                        font-size: 53px;
+                        h1{
+                            font-size: 53px;
+                        }
+                    }
+                    .h2{
+                        letter-spacing: 0.8px;
+                        margin-top: -6px;
+                        font-size: 16px;
+                        h2{
+                            font-size: 16px;
+                        }
+                    }
+                }
+                .description_block{
+                    width: 300px;
+                    padding-top: 40px;
+                }
+            }
+            .right_part{
+                width: 268px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 666px){
+
+}
+@media screen and (max-width: 479px){
+
+}
+@media screen and (max-width: 320px){
+
+}
