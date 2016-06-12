@@ -125,7 +125,7 @@
 
 /* footer */ 
 
-    .footer{ background-color: #0f4979;
+    .footer{ background-color: #0f4979; position: relative;
         .mbox{height: 135px; width: 100%; display: flex; align-items: center; justify-content: space-between;
             .cont{width: 51%;}
             .logo{ display: inline-block; text-decoration: none;
