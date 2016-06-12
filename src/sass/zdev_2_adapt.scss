@@ -11,6 +11,18 @@
 
 }
 @media screen and (max-width: 1024px){
+    .footer .mbox {padding: 0 20px; height: 144px;
+        .cont { width: 41%;}
+        .end-block { width: 64%;}
+    }
+
+    .dv_form{
+        .mbox {padding-left: 20px; padding-right: 20px;
+            .form {max-width: 244px;}
+            .con-img {width: 309px; margin-left: -127px;}
+        }
+    }
+
 
 }
 @media screen and (max-width: 992px){
