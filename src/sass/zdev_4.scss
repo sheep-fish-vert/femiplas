@@ -27,7 +27,7 @@
     }
 }
 //как снять боль
-.dv2-2{background:transparent url('../images/dv2-2-bg.jpg') 0 bottom no-repeat;min-height: 491px;background-size: cover;padding-top: 98px;
+.dv2-2{background:transparent url('../images/dv2-2-bg.jpg') 0 bottom no-repeat;min-height: 491px;background-size: cover;padding-top: 98px;overflow: hidden;
     // title
     .sub-title{font-family: "Intro";font-size: 46px;position: relative;color: #185d95;line-height: 1.3;
             h2{margin: 0;font-size: 46px;}
@@ -87,7 +87,7 @@
     }
 }
 // dv4  груди-груди
-.dv4{background:transparent url('../images/dv4-bg.png') 100% center no-repeat;
+.dv4{background:transparent url('../images/dv4-bg.png') 100% center no-repeat;overflow: hidden;
     .container{min-height: 545px;display: flex;flex-direction: column;justify-content: center;align-items: flex-start;}
     // title
     .sub-title{font-family: "Intro";font-size: 38px;position: relative;color: #212121;line-height: 1.3;margin-bottom: 70px;margin-top: -13px;
@@ -111,7 +111,7 @@
 }
 
 //dv5  один доктор
-.dv5{background-color: #185d95;
+.dv5{background-color: #185d95;overflow: hidden;
     .container{min-height: 651px;display: flex;justify-content: flex-end;align-items: center;background:#185d95 url('../images/dv5-bg.png') 1% 101% no-repeat;}
     .item-right{width: 60%;display: flex;flex-wrap: wrap;flex-direction: column;color: white;background-color: #185d95;
         .sub-title{font-family: "Intro";font-size: 38px;position: relative;line-height: 1.2;margin-bottom: 64px;text-transform: uppercase;padding-top: 5px;
@@ -132,7 +132,7 @@
     }
 }
 // dv6 здоровенный пластрь
-.dv6{padding-top: 84px;
+.dv6{padding-top: 84px;overflow: hidden;
     .sub-title{font-family: "Intro";font-size: 38px;position: relative;color: #212121;line-height: 1.4;text-align: center;margin-bottom: 40px;
         h2{margin: 0;font-size: 38px;
             b{font-weight: inherit;font-size: 62px;}
@@ -182,7 +182,7 @@
 }
 
 // dv7
-.dv7{background-color: #185d95;
+.dv7{background-color: #185d95;overflow: hidden;
     .top-part{padding-top: 77px;
         .title{font-family: "Intro";font-size: 38px;position: relative;line-height: 1.2;text-transform: uppercase;color: #fff;text-align: center;letter-spacing: -0.2px;margin-bottom: 48px;
             h2{margin: 0;font-size: 38px;font-family: "Intro";font-weight: bold;}

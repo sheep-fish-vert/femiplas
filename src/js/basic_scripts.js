@@ -72,10 +72,10 @@ function animationBlock(item){
 
 /*GO TO href*/
 function goTo(){
-    $('.header-menu a').click(function(e){
+    $('.header_menu a').click(function(e){
         e.preventDefault();
         var href = $(this).attr('href');
-        var target = $(href).offset().top-65;
+        var target = $(href).offset().top;
         $(scroller).animate({scrollTop:target},500);
     });
 }
@@ -187,7 +187,7 @@ $(document).ready(function() {
     AOS.init({
         offset: 200,
     });
-    //goTo();
+    goTo();
     //animationBlock($('.setion-animate'));
 });
 
